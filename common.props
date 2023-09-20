@@ -10,7 +10,7 @@
       <AdditionalFiles Include="$(MSBuildThisFileDirectory).editorconfig" />
   </ItemGroup> 
   <ItemGroup>
-      <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" />
+    <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" />
     <PackageReference Include="StyleCop.Analyzers" />
   </ItemGroup>
 </Project>
