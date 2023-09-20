@@ -1,11 +1,10 @@
-﻿
-[Flags]
+﻿[Flags]
 internal enum Features
 {
     None = 0,
     Brakes = 1,
     Radio = 2,
-    AirConditioning = 4
+    AirConditioning = 4,
 }
 
 internal class Program
@@ -17,8 +16,8 @@ internal class Program
         // a method that converts a number to binary
         Action<int> b = n => Console.WriteLine(Convert.ToString(n, 2).PadLeft(8, '0'));
 
-        b(1); //output - 00000001
-        b(1 + 1); //output - 00000010
+        b(1); // output - 00000001
+        b(1 + 1); // output - 00000010
 
         var v = 0b1010;
         var x = 0b0110;
